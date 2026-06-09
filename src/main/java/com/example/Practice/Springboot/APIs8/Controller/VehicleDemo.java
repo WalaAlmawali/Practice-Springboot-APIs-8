@@ -1,4 +1,7 @@
-package com.example.Practice.Springboot.APIs8;
+package com.example.Practice.Springboot.APIs8.Controller;
+
+import com.example.Practice.Springboot.APIs8.Entity.Vehicle;
+import com.example.Practice.Springboot.APIs8.Service.VehicleManager;
 
 public class VehicleDemo {
     public static void main(String[] args) {

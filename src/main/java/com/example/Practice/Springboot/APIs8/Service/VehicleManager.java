@@ -1,4 +1,6 @@
-package com.example.Practice.Springboot.APIs8;
+package com.example.Practice.Springboot.APIs8.Service;
+
+import com.example.Practice.Springboot.APIs8.Entity.Vehicle;
 
 import java.util.ArrayList;
 import java.util.List;

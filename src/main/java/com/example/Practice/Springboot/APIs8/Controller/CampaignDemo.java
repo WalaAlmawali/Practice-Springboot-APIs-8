@@ -1,4 +1,7 @@
-package com.example.Practice.Springboot.APIs8;
+package com.example.Practice.Springboot.APIs8.Controller;
+
+import com.example.Practice.Springboot.APIs8.Entity.Campaign;
+import com.example.Practice.Springboot.APIs8.Service.CampaignManager;
 
 public class CampaignDemo {
 
