@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 
 @Entity
-@Table(name = "Campaign")
+@Table(name = "campaign")
 public class Campaign {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -13,7 +13,6 @@ public class Campaign {
     private String campaignName;
     @NotBlank
     private String platform;
-    @NotBlank
     private double budget;
 
     public Campaign( String campaignName,
