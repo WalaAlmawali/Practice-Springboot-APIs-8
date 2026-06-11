@@ -17,7 +17,7 @@ public class VehicleService {
     }
 
     // Add vehicle
-    public Vehicle addEmployee(Vehicle vehicle) {
+    public Vehicle addVehicle(Vehicle vehicle) {
         return repository.save(vehicle);
     }
 
