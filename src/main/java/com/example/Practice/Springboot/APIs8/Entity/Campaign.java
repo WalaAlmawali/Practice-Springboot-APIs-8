@@ -37,4 +37,16 @@ public class Campaign {
     public double getBudget() {
         return budget;
     }
+
+    public void setCampaignName(String campaignName) {
+        this.campaignName = campaignName;
+    }
+
+    public void setPlatform(String platform) {
+        this.platform = platform;
+    }
+
+    public void setBudget(double budget) {
+        this.budget = budget;
+    }
 }
