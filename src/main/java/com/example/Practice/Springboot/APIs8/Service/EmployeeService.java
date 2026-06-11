@@ -1,4 +1,4 @@
-package com.example.Practice.Springboot.APIs8.Servicess;
+package com.example.Practice.Springboot.APIs8.Service;
 
 import com.example.Practice.Springboot.APIs8.Entity.Employee;
 import com.example.Practice.Springboot.APIs8.Repository.EmployeeRepository;
