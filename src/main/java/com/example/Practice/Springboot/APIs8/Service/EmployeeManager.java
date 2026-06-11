@@ -13,9 +13,9 @@ public class EmployeeManager {
     public EmployeeManager(){
 
         //add employee to the list
-        employees.add(new Employee("E101", "Sara", "HR"));
-        employees.add(new Employee("E102", "Ahmed", "Finance"));
-        employees.add(new Employee("E103", "John", "Marketing"));
+        employees.add(new Employee( "Sara", "HR"));
+        employees.add(new Employee( "Ahmed", "Finance"));
+        employees.add(new Employee( "John", "Marketing"));
 
     }
 

@@ -12,9 +12,9 @@ public class VehicleManager {
         vehicles = new ArrayList<>();
 
         // Sample Vehicles
-        vehicles.add(new Vehicle("V101", "Toyota Corolla", 20));
-        vehicles.add(new Vehicle("V102", "Nissan Sunny", 18));
-        vehicles.add(new Vehicle("V103", "Hyundai Elantra", 22));
+        vehicles.add(new Vehicle( "Toyota Corolla", 20));
+        vehicles.add(new Vehicle( "Nissan Sunny", 18));
+        vehicles.add(new Vehicle( "Hyundai Elantra", 22));
     }
 
     // POST Operation

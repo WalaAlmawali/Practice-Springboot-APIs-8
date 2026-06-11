@@ -1,19 +1,27 @@
 package com.example.Practice.Springboot.APIs8.Entity;
 
+import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
+
+@Entity
+@Table(name = "Vehicle")
 public class Vehicle {
-    private String vehicleId;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long vehicleId;
+    @NotBlank
     private String vehicleModel;
+    @NotBlank
     private double rentalPricePerDay;
 
     //Constructor
-    public Vehicle(String vehicleId, String vehicleModel, double rentalPricePerDay) {
-        this.vehicleId = vehicleId;
+    public Vehicle( String vehicleModel, double rentalPricePerDay) {
         this.vehicleModel = vehicleModel;
         this.rentalPricePerDay = rentalPricePerDay;
     }
 
     //Getter methods
-    public String getVehicleId() {
+    public Long getVehicleId() {
         return vehicleId;
     }
 

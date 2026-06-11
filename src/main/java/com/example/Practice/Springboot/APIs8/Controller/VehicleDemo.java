@@ -12,7 +12,7 @@ public class VehicleDemo {
         manager.displayVehicles();
 
        // New Vehicle (POST Request Simulation)
-        Vehicle newVehicle = new Vehicle("V104", "Kia Sportage", 30);
+        Vehicle newVehicle = new Vehicle( "Kia Sportage", 30);
 
         System.out.println("\n=== Processing POST Operation ===");
         System.out.println(manager.addVehicle(newVehicle));

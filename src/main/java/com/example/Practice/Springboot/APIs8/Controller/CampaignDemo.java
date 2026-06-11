@@ -13,7 +13,7 @@ public class CampaignDemo {
         manager.displayCampaigns();
 
        // New Campaign (POST Request Simulation)
-        Campaign newCampaign = new Campaign("C104", "Ramadan Offer", "Facebook Ads", 700);
+        Campaign newCampaign = new Campaign("Ramadan Offer", "Facebook Ads", 700);
 
         System.out.println("\n=== Processing POST Operation ===");
         System.out.println(manager.addCampaign(newCampaign));
