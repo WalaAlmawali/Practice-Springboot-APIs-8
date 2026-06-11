@@ -22,6 +22,9 @@ public class Campaign {
         this.budget = budget;
     }
 
+    public Campaign() {
+    }
+
     public Long getCampaignId() {
         return campaignId;
     }

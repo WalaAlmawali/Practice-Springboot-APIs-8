@@ -19,6 +19,9 @@ public class Vehicle {
         this.rentalPricePerDay = rentalPricePerDay;
     }
 
+    public Vehicle() {
+    }
+
     //Getter methods
     public Long getVehicleId() {
         return vehicleId;
