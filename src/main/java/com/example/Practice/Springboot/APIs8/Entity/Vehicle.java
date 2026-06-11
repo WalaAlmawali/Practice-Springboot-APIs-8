@@ -32,4 +32,14 @@ public class Vehicle {
     public double getRentalPricePerDay() {
         return rentalPricePerDay;
     }
+
+    // Setter
+
+    public void setVehicleModel(String vehicleModel) {
+        this.vehicleModel = vehicleModel;
+    }
+
+    public void setRentalPricePerDay(double rentalPricePerDay) {
+        this.rentalPricePerDay = rentalPricePerDay;
+    }
 }
